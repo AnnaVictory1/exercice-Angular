@@ -1,0 +1,40 @@
+// Define some styles for the toolbar
+
+mat-toolbar {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    background-color: #fb8d06;
+    color: white;
+  }
+  
+  // Define styles for the toolbar title
+  
+  mat-toolbar span {
+    font:caption;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 16px;
+  }
+  
+  // Define styles for the toolbar buttons
+  
+  mat-toolbar a {
+    margin: 0 8px;
+    background-color:wheat;
+    color: #fb8d06;
+  }
+  
+  // Define styles for the spacer element
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  // Define some styles specific to Angular Material
+  
+  .mat-elevation-z8 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
